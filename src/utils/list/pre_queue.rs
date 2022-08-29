@@ -1,5 +1,6 @@
 pub use std::fmt;
 
+// 优先队列
 
 pub struct PreQueue<T> where T: Ord {
     pub queue: Vec<T>,

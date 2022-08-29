@@ -1,4 +1,4 @@
-use crate::utils::PreQueue;
+use crate::utils::list::PreQueue;
 
 use super::edge::Edge;
 use super::node::Node;

@@ -4,6 +4,7 @@ pub mod recall;
 pub mod sort;
 pub mod utils;
 pub mod arrays;
+pub mod test;
 #[cfg(test)]
 mod tests {
 
@@ -198,5 +199,19 @@ mod tests {
         println!("{}",s.pop().unwrap());
         println!("{:?}",s.pop());
         
+    }
+    #[test]
+    fn test5(){
+        let a=10;
+        dbg!(
+            a
+        );
+    }
+    ///
+    /// todo!() 可以在你没写函数内容及返回值的时候使用
+    /// 这样不会报错
+    #[allow(dead_code)]
+    fn test_fun()->i32{
+        todo!()
     }
 }

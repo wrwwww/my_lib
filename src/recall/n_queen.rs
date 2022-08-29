@@ -1,3 +1,4 @@
+/// n皇后
 #[allow(dead_code)]
 pub fn n_queens(){
     let len=4;
